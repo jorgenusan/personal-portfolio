@@ -3,7 +3,7 @@ import companiesData from "@/data/CompaniesData";
 export default function Vitae() {
     return (
         <div className="flex flex-col w-full mt-1 mb-1 pl-8 pr-8 lg:pl-2 lg:pr-2 md:pl-2 md:pr-2">
-            <h1 className="text-2xl font-bold mb-4 text-left">Vitae</h1>
+            <h1 className="text-2xl font-bold mb-4 text-left text-gray-300">Vitae</h1>
             <br />
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 {Object.keys(companiesData).map((company, index) => (
@@ -22,7 +22,7 @@ export default function Vitae() {
                             <time className="font-mono italic">
                                 {companiesData[company].start_date["month"]} {companiesData[company].start_date["year"]} - {companiesData[company].end_date["month"]} {companiesData[company].end_date["year"]}
                             </time>
-                            <div className="text-lg font-black">
+                            <div className="text-lg font-black text-gray-300">
                                 {companiesData[company].title} -{" "}
                                 <a
                                     className="link link-hover text-custom-blue"

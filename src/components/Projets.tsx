@@ -3,7 +3,7 @@ import projectsData from "@/data/ProjectsData";
 export default function Projets() {
     return (
         <div className="flex flex-col w-full mt-1 mb-1 pl-8 pr-8 lg:pl-2 lg:pr-2 md:pl-2 md:pr-2">
-            <h1 className="text-2xl font-bold mb-4 text-left">Projects</h1>
+            <h1 className="text-2xl font-bold mb-4 text-left text-gray-300">Projects</h1>
             <br />
             <div className="flex flex-wrap justify-center">
                 {Object.keys(projectsData).map((projectKey) => (
