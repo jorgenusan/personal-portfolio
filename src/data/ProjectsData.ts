@@ -16,7 +16,7 @@ const projectsData: ProjectData = {
     description: "Personal website",
     link: 'https://github.com/jorgenusan/personal-website.git',
     image: 'github.jpg',
-  },
+  }
 };
 
 export default projectsData;
