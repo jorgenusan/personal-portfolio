@@ -27,7 +27,7 @@ const companiesData: CompaniesData = {
         website: "https://www.gradiant.org/"
     },
     "Coremain": {
-        time: "abr. 2021 - ago. 2021",
+        time: "apr. 2021 - aug. 2021",
         title: "Full Stack Developer",
         description: "Development of web applications with Angular and Typescript and APIs in .NET for the management of data and the automation of processes.",
         location: "Santiago de Compostela, Spain",
