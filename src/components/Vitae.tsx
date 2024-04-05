@@ -1,4 +1,4 @@
-import companiesData from "@/data/CompaniesData";
+import vitaeData from "@/data/VitaeData";
 
 export default function Vitae() {
     return (
@@ -6,11 +6,11 @@ export default function Vitae() {
             <h1 className="text-2xl font-bold mb-4 text-left text-gray-300">Vitae</h1>
             <br />
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-                {Object.keys(companiesData).map((company, index) => (
+                {Object.keys(vitaeData).map((company, index) => (
                     <li key={company}>
                         <div className="timeline-middle">
                             <div className="avatar">
-                                <div className="w-20 rounded-full bg-cover bg-center bg-no-repeat bg-white" style={{ backgroundImage: `url(${companiesData[company].image})`, backgroundSize: '90%' }} />
+                                <div className="w-20 rounded-full bg-cover bg-center bg-no-repeat bg-white" style={{ backgroundImage: `url(${vitaeData[company].image})`, backgroundSize: '90%' }} />
                             </div>
                         </div>
                         <div
@@ -20,27 +20,27 @@ export default function Vitae() {
                                 } pl-4 pr-4 pb-10`}
                         >
                             <time className="font-mono italic">
-                                {companiesData[company].start_date["month"]} {companiesData[company].start_date["year"]} - {companiesData[company].end_date["month"]} {companiesData[company].end_date["year"]}
+                                {vitaeData[company].start_date["month"]} {vitaeData[company].start_date["year"]} - {vitaeData[company].end_date["month"]} {vitaeData[company].end_date["year"]}
                             </time>
-                            <div className="text-lg font-black text-gray-300">
-                                {companiesData[company].title} -{" "}
+                            <div className="text-lg font-black text-custom-blue">
+                                {vitaeData[company].title} {" "}
                                 <a
-                                    className="link link-hover text-custom-blue"
+                                    className="link link-hover text-gray-400"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href={companiesData[company].website}
+                                    href={vitaeData[company].website}
                                 >
-                                    {company}
+                                    - {company}
                                 </a>
                             </div>
                             <div
                                 className="mt-2"
                                 dangerouslySetInnerHTML={{
-                                    __html: companiesData[company].description,
+                                    __html: vitaeData[company].description,
                                 }}
                             />
                         </div>
-                        {index !== Object.keys(companiesData).length - 1 && (
+                        {index !== Object.keys(vitaeData).length - 1 && (
                             <hr />
                         )}
                     </li>
