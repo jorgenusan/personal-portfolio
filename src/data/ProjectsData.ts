@@ -14,7 +14,7 @@ const projectsData: ProjectData = {
   },
   'personal-website': {
     description: "Personal website",
-    link: 'https://github.com/jorgenusan/personal-website',
+    link: 'https://github.com/jorgenusan/personal-website.github.io',
     image: '/github.jpg',
   },
 };
