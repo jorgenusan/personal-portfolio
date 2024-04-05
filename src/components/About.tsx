@@ -34,7 +34,7 @@ export default function About() {
                         rel="noopener noreferrer"
                     >Gradiant</a>
                 </span>
-                 as a machine learning researcher in the machine vision
+                {" "} as a machine learning researcher in the machine vision
                 area and before that as a full stack developer at{" "}
                 <span>
                     <a
