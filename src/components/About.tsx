@@ -25,7 +25,7 @@ export default function About() {
                         Indra
                     </a>
                 </span>
-                , as a deep learning engineer. Previously I worked at
+                , as a deep learning engineer. Previously I worked at{" "}
                 <span>
                     <a
                         href="https://www.gradiant.org/"
