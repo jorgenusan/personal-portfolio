@@ -23,14 +23,15 @@ export default function Vitae() {
                                 {vitaeData[company].start_date["month"]} {vitaeData[company].start_date["year"]} - {vitaeData[company].end_date["month"]} {vitaeData[company].end_date["year"]}
                             </time>
                             <div className="text-lg font-black text-custom-blue">
-                                {vitaeData[company].title} {" "}
+                                {vitaeData[company].title} 
+                                <span className=" text-gray-400"> - </span>
                                 <a
                                     className="link link-hover text-gray-400"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href={vitaeData[company].website}
                                 >
-                                    - {company}
+                                    {company}
                                 </a>
                             </div>
                             <div
