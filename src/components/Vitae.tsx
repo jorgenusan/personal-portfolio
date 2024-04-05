@@ -14,11 +14,10 @@ export default function Vitae() {
                             </div>
                         </div>
                         <div
-                            className={`${
-                                index % 2 === 0
+                            className={`${index % 2 === 0
                                     ? "timeline-start md:text-end"
                                     : "timeline-end"
-                            } pl-4 pr-4 pb-10`}
+                                } pl-4 pr-4 pb-10`}
                         >
                             <time className="font-mono italic">
                                 {companiesData[company].start_date["month"]} {companiesData[company].start_date["year"]} - {companiesData[company].end_date["month"]} {companiesData[company].end_date["year"]}
