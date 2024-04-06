@@ -7,5 +7,9 @@
 }
 
 body {
-    @apply bg-custom-black
+    @apply bg-custom-black text-gray-300
+}
+
+.titles {
+    @apply text-gray-200
 }

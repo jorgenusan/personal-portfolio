@@ -3,7 +3,7 @@ import vitaeData from "@/data/VitaeData";
 export default function Vitae() {
     return (
         <div className="flex flex-col w-full mt-1 mb-1 pl-8 pr-8 lg:pl-2 lg:pr-2 md:pl-2 md:pr-2">
-            <h1 className="text-2xl font-bold mb-4 text-left text-gray-300">Vitae</h1>
+            <h1 className="text-2xl font-bold mb-4 text-left titles">Vitae</h1>
             <br />
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 {Object.keys(vitaeData).map((company, index) => (
