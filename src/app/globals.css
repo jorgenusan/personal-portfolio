@@ -5,3 +5,7 @@
 .social-link {
     @apply lg:w-7 lg:h-7 md:h-7 md:w-7 h-6 w-6 text-custom-blue ml-2
 }
+
+body {
+    @apply bg-custom-black
+}
