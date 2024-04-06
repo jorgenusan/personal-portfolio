@@ -12,13 +12,13 @@ type VitaeData = {
 
 interface MonthYear {
     month: string;
-    year: number;
+    year: number | string;
 }
 
 const vitaeData: VitaeData = {
     "Antexia Technologies S.L.": {
         start_date: { month: "oct.", year: 2023 },
-        end_date: { month: "Present", year: 2023 },
+        end_date: { month: "Present", year: "" },
         title: "Machine Learning Engineer",
         description: "Researcher in the field of computer vision, focusing on the development of image algorithms for detection and classification.",
         location: "Vigo, Spain",
