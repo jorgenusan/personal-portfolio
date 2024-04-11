@@ -8,12 +8,12 @@ type ProjectData = {
 
 const projectsData: ProjectData = {
   'pydepcheck': {
-    description: "pre-commit hook that checks the dependencies used in code appear in the environment file",
+    description: "pre-commit hook that checks the env dependencies used in code appear in the env file",
     link: "https://github.com/jorgenusan/pydepcheck.git",
     image: 'pydeepcheck.jpg',
   },
-  'personal-portfolio-website': {
-    description: "My portfolio. Personal website",
+  'personal-portfolio': {
+    description: "My portfolio website, built with React, Tailwind CSS, and Next.js.",
     link: 'https://github.com/jorgenusan/personal-portfolio-website.git',
     image: 'portfolio.jpg',
   }
