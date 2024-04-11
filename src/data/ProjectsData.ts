@@ -14,7 +14,7 @@ const projectsData: ProjectData = {
   },
   'personal-portfolio': {
     description: "My portfolio website, built with React, Tailwind CSS, and Next.js.",
-    link: 'https://github.com/jorgenusan/personal-portfolio-website.git',
+    link: 'https://github.com/jorgenusan/personal-portfolio.git',
     image: 'portfolio.jpg',
   }
 };
