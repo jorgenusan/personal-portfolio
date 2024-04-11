@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Projets from "@/components/Projets";
 import Title from "@/components/Title";
@@ -15,7 +16,8 @@ export default function Home() {
         <Projets />
         <div className="divider"></div>
         <Vitae />
-
+        <div className="divider"></div>
+        <Education />
       </main>
       <Footer />
     </>
