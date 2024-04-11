@@ -10,12 +10,12 @@ const projectsData: ProjectData = {
   'pydepcheck': {
     description: "pre-commit hook that checks the dependencies used in code appear in the environment file",
     link: "https://github.com/jorgenusan/pydepcheck.git",
-    image: 'github.jpg',
+    image: 'pydeepcheck.jpg',
   },
-  'personal-website': {
-    description: "Personal website",
-    link: 'https://github.com/jorgenusan/personal-website.git',
-    image: 'github.jpg',
+  'personal-portfolio-website': {
+    description: "My portfolio. Personal website",
+    link: 'https://github.com/jorgenusan/personal-portfolio-website.git',
+    image: 'portfolio.jpg',
   }
 };
 

@@ -7,7 +7,7 @@ export default function Projets() {
             <br />
             <div className="flex flex-wrap justify-center">
                 {Object.keys(projectsData).map((projectKey) => (
-                    <a key={projectKey} className="card w-80 lg:w-90 lg:ml-10 md:ml-5 shadow-custom-blue shadow-md flex mb-4 bg-custom-black" href={projectsData[projectKey].link} target="_blank" rel="noopener noreferrer">
+                    <a key={projectKey} className="card w-80 lg:ml-10 md:ml-5 shadow-custom-blue shadow-md flex mb-4 bg-custom-black" href={projectsData[projectKey].link} target="_blank" rel="noopener noreferrer">
                         <figure>
                             <img
                                 src={projectsData[projectKey].image}
