@@ -1,4 +1,4 @@
-# Personal website
+# Personal portfolio website
 
 This website is used as a portfolio to present myself, show my projects and my professional career among other things.
 
