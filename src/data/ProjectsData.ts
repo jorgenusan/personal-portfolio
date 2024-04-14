@@ -12,10 +12,10 @@ const projectsData: ProjectData = {
     link: "https://github.com/jorgenusan/pydepcheck.git",
     image: 'pydeepcheck.jpg',
   },
-  'personal-portfolio': {
+  'personal-website': {
     description: "My portfolio website, built with React, Tailwind CSS, and Next.js.",
-    link: 'https://github.com/jorgenusan/personal-portfolio.git',
-    image: 'portfolio.jpg',
+    link: 'https://github.com/jorgenusan/personal-website.git',
+    image: 'website.jpg',
   }
 };
 
