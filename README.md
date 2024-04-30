@@ -1,7 +1,8 @@
 # Personal portfolio website
 
 > [!WARNING]
-> This repository is deprecated. It has been migrated to a new website -> https://github.com/jorgenusan/jorgenusan.github.io
+> THIS REPOSITORY IS DEPRECATED.
+> It has been migrated to a new website -> https://github.com/jorgenusan/jorgenusan.github.io
 
 This website is used as a portfolio to present myself, show my projects and my professional career among other things.
 
